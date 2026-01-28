@@ -1,15 +1,7 @@
 name = "hnhplumbing"
 compatibility_date = "2025-01-15"
+pages_build_output_dir = "./out"
 
 # Build configuration for Next.js static export
 [build]
 command = "npm run build"
-
-# Pages deployment - Next.js outputs to /out with static export
-[site]
-bucket = "./out"
-
-# Custom domain (optional)
-# routes = [
-#   { pattern = "hnhplumbing.sites.flowtivity.com.au", custom_domain = true }
-# ]
