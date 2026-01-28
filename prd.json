@@ -174,7 +174,7 @@
         "npm run build succeeds without errors",
         "next.config.js configured for static export (output: 'export')"
       ],
-      "passes": true
+      "passes": false
     },
     {
       "id": 2,
@@ -187,7 +187,7 @@
         "Clear call-to-action buttons",
         "Uses images from assets/images/ folder (NOT placeholder images)"
       ],
-      "passes": true
+      "passes": false
     },
     {
       "id": 3,
@@ -199,7 +199,7 @@
         "Consistent styling with homepage",
         "Uses next/image for optimized image loading"
       ],
-      "passes": true
+      "passes": false
     },
     {
       "id": 4,
@@ -211,7 +211,7 @@
         "Company values or mission statement",
         "NO placeholder images - use actual downloaded assets"
       ],
-      "passes": true
+      "passes": false
     },
     {
       "id": 5,
@@ -223,7 +223,7 @@
         "Google Maps embed with business location",
         "Phone, email, address, hours displayed from content/metadata.json"
       ],
-      "passes": true
+      "passes": false
     },
     {
       "id": 6,
@@ -235,7 +235,7 @@
         "Distinctive aesthetic - NOT generic (no Inter, Roboto)",
         "Visual style matches the business vertical"
       ],
-      "passes": true
+      "passes": false
     },
     {
       "id": 7,
@@ -247,7 +247,7 @@
         "Smooth scroll behavior",
         "Respects prefers-reduced-motion"
       ],
-      "passes": true
+      "passes": false
     },
     {
       "id": 8,
@@ -259,7 +259,7 @@
         "FAQ section with 3-5 common questions",
         "Schema validates at schema.org validator"
       ],
-      "passes": true
+      "passes": false
     },
     {
       "id": 9,
@@ -271,7 +271,7 @@
         "Readable text without zooming",
         "Mobile navigation works correctly"
       ],
-      "passes": true
+      "passes": false
     },
     {
       "id": 10,
@@ -283,7 +283,7 @@
         "Lazy loading enabled for below-fold images",
         "Lighthouse Performance score > 90"
       ],
-      "passes": true
+      "passes": false
     },
     {
       "id": 11,
@@ -295,7 +295,7 @@
         "Preview URL accessible and HTTPS working",
         "Loads in under 3 seconds"
       ],
-      "passes": true
+      "passes": false
     }
   ]
 }
